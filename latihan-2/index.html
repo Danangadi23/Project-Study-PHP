@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator</title>
+  </head>
+  <body>
+    <script>
+      pilihan = Number(
+        prompt(
+          "Pilih Kalkulator : \n 1. Penjumlahan \n 2. Pengurangan \n 3. Perkalian \n 4. Pembagian"
+        )
+      );
+
+      if (pilihan == false) {
+        alert("Terimakasih");
+      } else {
+        if (pilihan === 1) {
+          document.location.href = "penjumlahan.php";
+        } else if (pilihan === 2) {
+          document.location.href = "pengurangan.php";
+        } else if (pilihan === 3) {
+          document.location.href = "perkalian.php";
+        } else if (pilihan === 4) {
+          document.location.href = "pembagian.php";
+        } else {
+          cek = confirm("Mohon masukan angka yang sesuai!");
+          if (cek == true) {
+            document.location.href = "index.html";
+          } else {
+            alert("Terimakasih");
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
