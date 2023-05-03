@@ -1,2 +1,2 @@
-# Project-Study-PHP
-Simple Project yang saya buat ketika sedang belajar PHP di Youtube, Enjoy.
+# Kalkulator Sederhana
+Simple Kalkulator dengan PHP dan JS 
